@@ -1,0 +1,19 @@
+.items {
+    width: 200px;
+    height: 350px;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.countButtonLeft{
+    margin-right: 10px;
+}
+.countButtonRight{
+    margin-left: 10px;
+}
+
+.addOrderButton{
+    margin-left: 10px;
+}

@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import logo from './gimbap-logo.svg';
 import './App.css';
+import './items.css';
+import Item1 from './components/Item1';
+import OrderUp from './components/OrderUp';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>GIMBAP</h1>
       </header>
+
+      <div className='App-body'>
+        <div>
+          <h3>
+            We sell only one kind of Gimbap
+          </h3>
+          <p>Mom's Recipe, No Changes, No exception</p>
+
+          <Item1 className="items" />
+        </div>
+      </div>
+
+      <div>
+        <OrderUp />
+      </div>
     </div>
   );
 }
