@@ -20,11 +20,8 @@ function App() {
           <p>Mom's Recipe, No Changes, No exception</p>
 
           <Item1 className="items" />
+          <OrderUp className='orderUp'/>
         </div>
-      </div>
-
-      <div>
-        <OrderUp />
       </div>
     </div>
   );

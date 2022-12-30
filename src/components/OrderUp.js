@@ -3,7 +3,7 @@ import Items from './Item1'
 
 function OrderUp() {
   return (
-    <div>
+    <div className='orderUp'>
         <h3>Your Order</h3>
         <h4>Your Quantity: {Items.count}</h4>
     </div>
